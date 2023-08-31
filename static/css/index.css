@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e5ea; /* Fondo rosado vintage */
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #d48a9a; /* Rosa claro */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 120px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #803849; /* Marrón rosado */
+    text-decoration: none;
+  }
+  
+  .buttons {
+    margin-left: auto;
+    float: right;
+
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #803849; /* Marrón rosado */
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #d48a9a; /* Rosa claro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Media queries para dispositivos móviles */
+  /*@media screen and (max-width: 600px) {
+    nav {
+      text-align: center;
+    }
+   
+    nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }

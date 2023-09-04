@@ -4,37 +4,60 @@ body {
     margin: 0;
     padding: 0;
 }
-.container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
 }
 
-.titulo{
-    width: 100%;
+.header {
     text-align: center;
-    font-weight: bold;
-    margin: 30px;
-    font-size: 30px;
-}
-.caja img{
-    width: 220px;
-    height: 280px;
-    border-radius: 30px;
-}
-.caja{
-    margin: 15px;
+    padding: 20px;
+    background-color: #d48a9a;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
 }
 
-.caja p{
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
     text-align: center;
-    font-size: 20px;
-    font-weight: bold;
 }
 
- 
-  
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button {
+    background-color: #d48a9a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: grid;
+    margin: auto;
+    
+}
+
+button:hover {
+    background-color: #bb2d4b;
+}
+
   /* Pie de página */
   body {
     font-family: 'Times New Roman', serif;
@@ -89,8 +112,8 @@ body {
   }
   .hola {
     display: block;
-    background-color :#FC8383;
+    background-color: blueviolet;
     border-radius: 10px;
-    margin-left: 870px;
-    margin-right: 8px;
+    margin-left: 900px;
+    margin-right: 10px;
 }
